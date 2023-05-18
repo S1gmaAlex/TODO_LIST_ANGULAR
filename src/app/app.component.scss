@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    color: rgb(198, 232, 232);
+    margin: 20px 0 20px 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.taskinput {
+    border: 0;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #ccc;
+}
+
+.tasksubmit {
+    border: 0;
+    color: #ccc;
+    font-size: 40px;
+    background: none;
+    margin-left: 5px;
+}
+
+.tasksubmit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: #79c0ff;
+    transition: 0.4s;
+}
+
+.tasklist {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 415px;
+    color: rgb(198, 232, 232);
+}

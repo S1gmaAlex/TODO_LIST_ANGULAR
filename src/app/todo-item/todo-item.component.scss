@@ -1,0 +1,32 @@
+.task {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.content {
+    height: 50px;
+    width: 405px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #ccc;
+}
+
+button {
+    border: 0;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    padding-top: 15px;
+}
+
+
+.edit:hover {
+    color: #7ee787;
+}
+
+.delete:hover {
+    color: #ff7b72;
+}

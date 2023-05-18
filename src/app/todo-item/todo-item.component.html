@@ -1,0 +1,12 @@
+<div class="task">
+    <div class="task_content">
+        <input class="content" type="text" value="{{name}}" />
+    </div>
+    <div class="task_action">
+        <button *ngIf="stateTask == true; else edit" class="edit" (click)="updateTask()">SAVE</button>
+        <ng-template #edit>
+            <button class="edit" (click)="editTask()">EDIT</button>
+        </ng-template>
+        <button class="delete" (click)="deleteTask()">DELETE</button>
+    </div>
+</div>
